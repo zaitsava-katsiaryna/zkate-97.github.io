@@ -1,0 +1,40 @@
+#main {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    background-color: lavenderblush;
+}
+
+#contactblocks {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#frames {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.contactblock {
+    background-color: aquamarine;
+    width: 25%;
+    height: 30%;
+    position: absolute;
+    right: 20%;
+}
+
+#contactblock1 {
+    top: 5%;
+}
+
+#contactblock2 {
+    top: 40%;
+}
+
+#contactblock3 {
+    top: 75%;
+}

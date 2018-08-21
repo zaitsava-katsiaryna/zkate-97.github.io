@@ -1,0 +1,68 @@
+    #linkblocks {
+        margin: auto;
+        height: 75%;
+        width: 100%;
+        position: relative;
+    }
+    
+    .linkblock {
+        position: absolute;
+        top: 25%;
+        width: 25%;
+        height: 50%;
+        background-color: cadetblue;
+        cursor: pointer;
+        transition: .6s ease;
+    }
+    
+    .linkblock:hover {
+        background-color: darkcyan;
+    }
+    
+    #frames,
+    #links {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .frame {
+        border: 5px solid darkgoldenrod;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #firstframe {
+        width: 30%;
+        height: 65%;
+        top: 12%;
+        left: 2%;
+    }
+    
+    #secondframe {
+        width: 40%;
+        height: 75%;
+        top: 20%;
+        left: 30%;
+    }
+    
+    #thirdframe {
+        width: 30%;
+        height: 80%;
+        top: 4%;
+        left: 68%;
+    }
+    
+    #aboutdiv {
+        left: 4%;
+    }
+    
+    #photosdiv {
+        left: 37.5%;
+    }
+    
+    #contactsdiv {
+        left: 71%;
+    }

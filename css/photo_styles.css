@@ -1,0 +1,69 @@
+#photodiv {
+    width: 100%;
+    height: 65%;
+    background-color: khaki;
+}
+
+.photoitem {
+    background-color: indianred;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.coverblock {
+    background-color: rgba(10, 20, 30, 0.6);
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: .6s ease;
+    position: absolute;
+}
+
+.cover {
+    top: 0%;
+}
+
+.bigphoto {
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.curtain {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.closebtn {
+    top: 5%;
+    right: 5%;
+}
+
+.leftbtn {
+    top: 45%;
+    left: 10%;
+}
+
+.rightbtn {
+    top: 45%;
+    right: 10%;
+}
