@@ -1,0 +1,84 @@
+    #linkblocks {
+        margin: auto;
+        height: 75%;
+        width: 100%;
+        position: relative;
+    }
+    
+    .linkblock {
+        position: absolute;
+        top: 25%;
+        width: 25%;
+        height: 50%;
+        background-color: cadetblue;
+        cursor: pointer;
+        transition: .6s ease;
+        z-index: 3;
+    }
+    
+    #frames,
+    #links {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .frame {
+        border: 6px solid darkgoldenrod;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #firstframe {
+        width: 30%;
+        height: 65%;
+        top: 12%;
+        left: 2%;
+    }
+    
+    #secondframe {
+        width: 40%;
+        height: 75%;
+        top: 20%;
+        left: 30%;
+    }
+    
+    #thirdframe {
+        width: 30%;
+        height: 80%;
+        top: 4%;
+        left: 68%;
+    }
+    
+    #aboutdiv,
+    #coverabout {
+        left: 4%;
+    }
+    
+    #photosdiv,
+    #coverphotos {
+        left: 37.5%;
+    }
+    
+    #contactsdiv,
+    #covercontacts {
+        left: 71%;
+    }
+    
+    .coverlinkblock {
+        opacity: 0;
+        background-color: darkcyan;
+        transition: .6s ease;
+        position: absolute;
+        top: 25%;
+        width: 25%;
+        height: 50%;
+        line-height: 100%;
+        color: white;
+        font-size: 30px;
+        z-index: 5;
+        text-align: center;
+        vertical-align: middle;
+    }
